@@ -1,0 +1,122 @@
+/* ====================== CONTAINERS ============================*/
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.container{
+	padding: 1rem 3rem 3rem 3rem;
+	background-color: #341340;
+	color: white;
+	border: 3px double coral;
+}
+
+.timer-container {
+	background-color: #e1cbea;
+	color: #341340;
+	padding: 1rem;
+	border: 3px double white;
+}
+
+/* ============================================================*/
+
+h1 {
+	font-size: 3rem;
+}
+
+.center {
+	text-align: center;
+}
+
+div#customize {
+	padding: 2rem 0 .5rem 0;
+	font-size: 1.7rem;
+}
+
+#time-entered {
+	padding: 1.5rem;
+	text-align: center;
+	font-size: 3rem;
+}
+
+#message {
+	font-size: 2rem;
+	display: none;
+}
+
+audio {
+	position: relative;
+	top: 7px;
+}
+
+/* ====================== BUTTONS ========================*/
+
+button.customize {
+	font-size: 1.3rem;
+	padding: .5rem;
+	border-radius: 50%;
+	border: 1px solid #209754;
+	outline: none;
+	background-color: white;
+	
+}
+
+.customize:hover {
+	cursor: pointer;
+	color: white;
+	background-color: #b9dbf3;
+}
+
+.button {
+	outline: none;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	margin-top: .4rem;
+	border-radius: 10px;
+	padding: .7rem;
+}
+
+.begin:hover {
+	border: 1px solid coral;
+	background-color: #d5f5e3;
+	color: #341340;
+}
+
+.begin {
+	cursor: pointer;
+	background-color: coral;
+	border: 1px solid #341340;
+	color: #d5f5e3;
+}
+
+.reset {
+	background-color: #d5f5e3;
+	border: 1px solid  #341340;
+	border: 1px solid coral;
+}
+
+.reset:hover {
+	cursor: pointer;
+	background-color: coral;
+	border: 1px solid white;
+	color: #d5f5e3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
