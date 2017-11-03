@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>Pomodoro Timer</title>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link type='text/css' rel='stylesheet' href='css/styles.css'>
+
+	</head>
+	<body>
+		<div class='container'>
+
+			<h1 class='center'>My Pomodoro</h1>
+
+
+
+			<div class='timer-container'>
+
+				<div id='customize' class='center'>Customize your study time <button id='add-button' class='customize add'>+</button> <button id='subtract-button' class='customize subtract'>-</button>
+				</div>
+
+				<div id='message' class='center'>Take a break. You've earned it!
+					<audio controls id='song'>
+						<source src='vacation.mp3'>
+					</audio>
+				</div>
+
+				<div id='time-entered'><span id='minutes'>25</span>:<span id='seconds'>00</span></div>
+
+				<div class='center'>
+					<button id='begin-button' class='begin button'>Begin</button> 
+					<button id='reset-button' class='reset button'>Reset</button>
+				</div>
+			</div>
+
+		</div>
+
+		<script src='js/main.js'></script>
+	</body>
+</html>
